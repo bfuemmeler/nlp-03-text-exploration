@@ -96,8 +96,7 @@ After you get a copy of this repo in your own GitHub account,
 open a machine terminal in your `Repos` folder:
 
 ```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/nlp-03-text-exploration
+git clone https://github.com/bfuemmeler/nlp-03-text-exploration
 cd nlp-03-text-exploration
 code .
 ```
@@ -121,11 +120,11 @@ uvx pre-commit run --all-files
 
 # First, run the module
 # IMPORTANT: Close each figure after viewing so execution continues
-uv run python -m nlp.nlp_corpus_explore_case
+uv run python -m nlp.nlp_corpus_explore_fuemmeler
 
 # Then, open the notebook.
 # IMPORTANT: Select the kernel and Run All:
-# notebooks/nlp_corpus_explore_case.ipynb
+# notebooks/nlp_corpus_explore_fuemmeler.ipynb
 
 uv run ruff format .
 uv run ruff check . --fix
