@@ -270,3 +270,13 @@ and groups of related terms emerge naturally from the data.
 
 Even before any modeling, we can begin to distinguish categories
 and see how meaning is reflected through **patterns of use**.
+
+## Phase 4: Make a Technical Modificaton
+In Section 3. Tokenize and Clean Text- Change # of Tokens to show
+From head(10) to head(8)- ran successfully  **Tried (15) but it still only showed 10
+
+In Section 4. Compute Global Token Frequencies- Change # of Tokens to show
+From head(10) to head(8)- ran successfully
+
+
+## Phase 5: Apply the Skills to a New Problem
