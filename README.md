@@ -280,3 +280,27 @@ From head(10) to head(8)- ran successfully
 
 
 ## Phase 5: Apply the Skills to a New Problem
+New Corpus, New Categories
+Replace the existing corpus with this example:
+corpus = [
+    # Patients
+    {"category": "patient", "text": "The patient reports mild pain."},
+    {"category": "patient", "text": "The patient rests after treatment."},
+    {"category": "patient", "text": "The patient follows the care plan."},
+
+    # Doctors
+    {"category": "doctor", "text": "The doctor examines the patient."},
+    {"category": "doctor", "text": "The doctor prescribes medication."},
+    {"category": "doctor", "text": "The doctor reviews the results."},
+
+    # Hospitals
+    {"category": "hospital", "text": "The hospital admits new patients."},
+    {"category": "hospital", "text": "The hospital provides emergency care."},
+    {"category": "hospital", "text": "The hospital manages patient records."}
+]
+
+After replacing the corpus:
+Changed head(8) back to head(10) in Sections 3 & 4
+Note new context words "doctor", "patient", "hospital"
+Update Section 9 to patient_df throughout
+Update Section 10 to add Specific Observations
