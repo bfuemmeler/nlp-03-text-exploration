@@ -304,3 +304,12 @@ Changed head(8) back to head(10) in Sections 3 & 4
 Note new context words "doctor", "patient", "hospital"
 Update Section 9 to patient_df throughout
 Update Section 10 to add Specific Observations
+
+Issues with pre-commit hooks and project.log errors
+These can be reviewed & removed, then add, commit, push again
+
+Helpful Notes for errors:
+git status
+Remove-Item .\project.log -Force
+git add .
+git commit -m "rename author" --no-verify
